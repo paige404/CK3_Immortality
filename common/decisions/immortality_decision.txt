@@ -1,0 +1,18 @@
+immortality_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+	is_shown = {
+		NOT = {
+			has_trait = immortality
+			}
+	}
+	effect = {
+		custom_tooltip = immortality_decision_effect_tooltip
+		add_trait = immortality
+	}
+
+	ai_check_interval = 0
+}

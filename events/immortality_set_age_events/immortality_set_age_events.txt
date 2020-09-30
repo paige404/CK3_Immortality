@@ -1,0 +1,34 @@
+namespace = immortality_set_age
+
+immortality_set_age.1 = {
+	type = character_event
+	title = immortality_set_age.1.t
+	desc = immortality_set_age.1.desc
+
+	theme = realm
+
+	left_portait = {
+		character = root
+		animation = personality_honorable
+		}
+
+	immediate = {
+		play_music_cue = "mx_cue_succession"
+	}
+	
+	option = { # Why not have true eternal youth?
+		name = immortality_set_age.1.option.a
+		set_immortal_age = 18
+	}
+
+	option = { # Nothing wrong with being a bit older
+		name = immortality_set_age.1.option.b
+		set_immortal_age = 30
+	}
+
+	option = { # Bah! Let me look be a ripe old age!
+		name = immortality_set_age.1.option.c
+		set_immortal_age = 80
+	}
+
+}

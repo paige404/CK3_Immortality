@@ -1,0 +1,17 @@
+immortality_removal_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	
+	is_shown = {
+		has_trait = immortality
+	}
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+
+	}
+	effect = {
+		custom_tooltip = immortality_removal_decision_effect_tooltip
+		remove_trait = immortality
+	}
+	
+	ai_check_interval = 0
+}

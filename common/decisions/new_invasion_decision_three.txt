@@ -1,0 +1,17 @@
+new_invasion_decision_three = {
+	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+	is_shown = {
+		has_character_flag = declared_major_religious_war_flag
+		}
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+	effect = {
+		custom_tooltip = new_invasion_decision_effect_tooltip
+		remove_character_flag = used_lifetime_invasion
+		remove_character_flag = used_lifetime_subjugation
+		remove_character_flag = declared_major_religious_war_flag
+	}
+
+	ai_check_interval = 0
+}

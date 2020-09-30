@@ -1,0 +1,48 @@
+﻿l_english:
+ immortality_decision:0 "Immortality"
+ immortality_decision_tooltip:0 "This decision adds a trait that makes you immortal."
+ immortality_decision_desc:0 "Leave death and aging behind?"
+ immortality_decision_effect_tooltip:0 "The choice to become immortal lies before you"
+ immortality_decision_confirm:0 "Yes."
+
+ immortality_removal_decision:0 "Giving up your immortality"
+ immortality_removal_decision_tooltip:0 "This decision will let you move on from this mortal coil in a nautral way once more."
+ immortality_removal_decision_desc:0 "Perhaps it's finally time to give up your eternal life?"
+ immortality_removal_decision_effect_tooltip:0 "Is it time to move on?"
+ immortality_removal_decision_confirm:0 "Yes, I'm ready now." 
+ 
+ new_invasion_decision:0 "Plan a new invasion"
+ new_invasion_decision_tooltip:0 "This decision will let you invade for a kingdom once again."
+ new_invasion_decision_desc:0 "Are you ready to set out for grand conquests once more?"
+ new_invasion_decision_effect_tooltip:0 "You and your armies stand ready to set out on another grand campaign."
+ new_invasion_decision_confirm:0 "For honor and glory!" 
+ 
+ set_age_decision:0 "Choosing an age"
+ set_age_decision_tooltip:0 "This decision will let you choose how old you wish to appear while immortal."
+ set_age_decision_desc:0 "Tired of the same old look?"
+ set_age_decision_effect_tooltip:0 "You already used your control over age to freeze your own, why not move it forward or backwards a bit while you're at it?"
+ set_age_decision_confirm:0 "I've already frozen my age, why stop there?"
+ 
+ restore_body_decision:0 "Restore your body and mind"
+ restore_body_decision_tooltip:0 "This decision will remove all negative health effects from you, such as diseases or wounds."
+ restore_body_decision_desc:0 "You can stop your body aging, why not restore it as well?"
+ restore_body_decision_effect_tooltip:0 "Heal your body and mind with the power of... something."
+ restore_body_decision_confirm:0 "Why wouldn't I want to be healthy?"
+ 
+ new_invasion_decision_two:0 "Plan a new invasion"
+ new_invasion_decision_two_tooltip:0 "This decision will let you invade for a kingdom once again."
+ new_invasion_decision_two_desc:0 "Are you ready to set out for grand conquests once more?"
+ new_invasion_decision_two_effect_tooltip:0 "You and your armies stand ready to set out on another grand campaign."
+ new_invasion_decision_two_confirm:0 "For honor and glory!" 
+ 
+ new_invasion_decision_three:0 "Plan a new invasion"
+ new_invasion_decision_three_tooltip:0 "This decision will let you invade for a kingdom once again."
+ new_invasion_decision_three_desc:0 "Are you ready to set out for grand conquests once more?"
+ new_invasion_decision_three_effect_tooltip:0 "You and your armies stand ready to set out on another grand campaign."
+ new_invasion_decision_three_confirm:0 "For honor and glory!" 
+
+ new_faith_creation_decision:0 "Prepare to create a new faith"
+ new_faith_creation_decision_tooltip:0 "This decision will let you create a new faith once again."
+ new_faith_creation_decision_desc:0 "Are you ready to enlighten your people once more?"
+ new_faith_creation_decision_effect_tooltip:0 "You feel prepared to create a new religion again."
+ new_faith_creation_decision_confirm:0 "Behold!"

@@ -1,0 +1,4 @@
+﻿l_english:
+ trait_immortality:0 "Immortality"
+ trait_immortality_desc:0 "This character has escaped the confines of aging."
+ trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has escaped the confines of aging."

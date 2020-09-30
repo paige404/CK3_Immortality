@@ -1,0 +1,39 @@
+restore_body_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	effect = {
+		custom_tooltip = restore_body_decision_effect_tooltip
+		remove_trait = wounded_1
+		remove_trait = wounded_2
+		remove_trait = wounded_3
+		remove_trait = maimed
+		remove_trait = one_eyed
+		remove_trait = one_legged
+		remove_trait = disfigured
+		remove_trait = infirm
+		remove_trait = incapable
+		remove_trait = gout_ridden
+		remove_trait = consumption
+		remove_trait = cancer 
+		remove_trait = typhus 
+		remove_trait = bubonic_plague 
+		remove_trait = smallpox 
+		remove_trait = sickly 
+		remove_trait = scarred 
+		remove_trait = eunuch 
+		remove_trait = blind 
+		remove_trait = leper 
+		remove_trait = lovers_pox 
+		remove_trait = early_great_pox 
+		remove_trait = great_pox 
+		remove_trait = pneumonic 
+		remove_trait = ill 
+		remove_trait = possessed_genetic 
+		remove_trait = possessed_1 
+		remove_trait = lunatic_genetic 
+		remove_trait = lunatic_1 
+		remove_trait = depressed_genetic 
+		remove_trait = depressed_1 
+	}
+
+	ai_check_interval = 0
+}

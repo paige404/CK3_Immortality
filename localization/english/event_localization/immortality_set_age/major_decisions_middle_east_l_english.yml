@@ -1,0 +1,7 @@
+﻿l_english:
+# Immortality set age event
+ immortality_set_age.1.t:0 "How old do I want to be?"
+ immortality_set_age.1.desc:0 "I may be immortal, but that doesn't mean I have to look as I do. What's wrong with me looking a bit older or younger while I'm at it?"
+ immortality_set_age.1.option.a:0 "Why not have true eternal youth?"
+ immortality_set_age.1.option.b:0 "Nothing wrong with being a bit older"
+ immortality_set_age.1.option.c:0 "Bah! Let me look like a ripe old age!"
