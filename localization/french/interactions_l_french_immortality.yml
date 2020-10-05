@@ -1,0 +1,3 @@
+l_french:
+ grant_immortality_interaction:0 "Accorde l'immortalité."
+ remove_immortality_interaction:0 "Enlève l'immortalité."
