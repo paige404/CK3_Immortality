@@ -1,0 +1,4 @@
+l_french:
+ trait_immortality:0 "Immortalité"
+ trait_immortality_desc:0 "Ce personnage a échappé aux affres du temps."
+ trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] a échappé aux affres du temps."
