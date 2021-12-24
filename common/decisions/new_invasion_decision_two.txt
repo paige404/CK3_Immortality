@@ -2,7 +2,8 @@ new_invasion_decision_two = {
 	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
 	is_shown = {
 		has_character_flag = used_lifetime_subjugation
-		}
+		has_trait = immortality
+	}
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
 	}
