@@ -2,11 +2,7 @@ new_invasion_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
 	
 	is_shown = {
-		OR = {
-			has_character_flag = used_lifetime_invasion
-			has_character_flag = declared_major_religious_war_flag
-			has_character_flag = used_lifetime_subjugation
-		}
+		has_character_flag = used_lifetime_invasion
 		has_trait = immortality
 	}
 	
