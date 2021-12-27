@@ -7,7 +7,7 @@ immortality_decision = {
 	is_shown = {
 		NOT = {
 			has_trait = immortality
-			}
+		}
 	}
 	effect = {
 		custom_tooltip = immortality_decision_effect_tooltip
