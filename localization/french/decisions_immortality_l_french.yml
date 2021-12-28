@@ -28,18 +28,6 @@ l_french:
  restore_body_decision_desc:0 "Vous pouvez arreter le viellissement de votre corps, pourquoi ne pas le soigner également?"
  restore_body_decision_effect_tooltip:0 "Soignez votre corps et votre âme avec le pouvoir de ... quelque chose."
  restore_body_decision_confirm:0 "Pourquoi ne voudrais-je pas être en bonne santé?"
- 
- new_invasion_decision_two:0 "Plannifier une nouvelle invasion"
- new_invasion_decision_two_tooltip:0 "Cette décision vous permettra à nouveau d'envahir un royaume."
- new_invasion_decision_two_desc:0 "Etes-vous à nouveau prêt pour de nouvelles conquêtes?"
- new_invasion_decision_two_effect_tooltip:0 "Votre armée et vous-même êtes prêt pour une nouvelle grande campagne."
- new_invasion_decision_two_confirm:0 "Pour l'honneur et la gloire!" 
- 
- new_invasion_decision_three:0 "Plannifier une nouvelle invasion"
- new_invasion_decision_three_tooltip:0 "Cette décision vous permettra à nouveau d'envahir un royaume."
- new_invasion_decision_three_desc:0 "Etes-vous à nouveau prêt pour de nouvelles conquêtes?"
- new_invasion_decision_three_effect_tooltip:0 "Votre armée et vous-même êtes prêt pour une nouvelle grande campagne."
- new_invasion_decision_three_confirm:0 "Pour l'honneur et la gloire!" 
 
  new_faith_creation_decision:0 "Preparer la création d'une nouvelle croyance"
  new_faith_creation_decision_tooltip:0 "Cette décision vous permettra à nouveau de creer une nouvelle croyance ."
