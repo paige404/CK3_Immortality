@@ -28,18 +28,6 @@
  restore_body_decision_desc:0 "You can stop your body aging, why not restore it as well?"
  restore_body_decision_effect_tooltip:0 "Heal your body and mind with the power of... something."
  restore_body_decision_confirm:0 "Why wouldn't I want to be healthy?"
- 
- new_invasion_decision_two:0 "Plan a new invasion"
- new_invasion_decision_two_tooltip:0 "This decision will let you invade for a kingdom once again."
- new_invasion_decision_two_desc:0 "Are you ready to set out for grand conquests once more?"
- new_invasion_decision_two_effect_tooltip:0 "You and your armies stand ready to set out on another grand campaign."
- new_invasion_decision_two_confirm:0 "For honor and glory!" 
- 
- new_invasion_decision_three:0 "Plan a new invasion"
- new_invasion_decision_three_tooltip:0 "This decision will let you invade for a kingdom once again."
- new_invasion_decision_three_desc:0 "Are you ready to set out for grand conquests once more?"
- new_invasion_decision_three_effect_tooltip:0 "You and your armies stand ready to set out on another grand campaign."
- new_invasion_decision_three_confirm:0 "For honor and glory!" 
 
  new_faith_creation_decision:0 "Prepare to create a new faith"
  new_faith_creation_decision_tooltip:0 "This decision will let you create a new faith once again."

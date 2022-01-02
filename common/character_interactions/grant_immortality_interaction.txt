@@ -1,12 +1,12 @@
 grant_immortality_interaction = {
-category = interaction_category_uncategorized
-use_diplomatic_range = no
-ignores_pending_interaction_block = yes
+	category = interaction_category_uncategorized
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
 
-on_accept = {
-scope:recipient = { add_trait = immortality}
-}
+	on_accept = {
+		scope:recipient = { add_trait = immortality}
+	}
 
-auto_accept = yes
-ai_will_do = 0
+	auto_accept = yes
+	ai_will_do = 0
 }
