@@ -6,7 +6,7 @@
  immortality_decision_confirm:0 "Yes."
 
  immortality_removal_decision:0 "Giving up your immortality"
- immortality_removal_decision_tooltip:0 "This decision will let you move on from this mortal coil in a nautral way once more."
+ immortality_removal_decision_tooltip:0 "This decision will let you move on from this mortal coil in a natural way once more."
  immortality_removal_decision_desc:0 "Perhaps it's finally time to give up your eternal life?"
  immortality_removal_decision_effect_tooltip:0 "Is it time to move on?"
  immortality_removal_decision_confirm:0 "Yes, I'm ready now." 
