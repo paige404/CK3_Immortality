@@ -1,0 +1,4 @@
+﻿l_english:
+ trait_immortality:0 "Unsterblichkeit"
+ trait_immortality_desc:0 "Diese Person ist die Fesseln des Alterns losgeworden."
+ trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist die Fesseln des Alterns losgeworden."

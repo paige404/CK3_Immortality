@@ -1,0 +1,7 @@
+﻿l_english:
+# Immortality set age event
+ immortality_set_age.1.t:0 "Wie alt sollte ich sein?"
+ immortality_set_age.1.desc:0 "Ich bin vielleicht ein Unsterblicher, aber das bedeutet nicht, dass ich auch wie einer aussehen muss. Was ist denn falsch damit, ein bisschen älter oder jünger auszusehen?"
+ immortality_set_age.1.option.a:0 "Warum sollte man nicht ewig jung bleiben?"
+ immortality_set_age.1.option.b:0 "Es ist nichts falsch daran, ein bisschen älter zu sein."
+ immortality_set_age.1.option.c:0 "Bah! Lass mich steinalt aussehen!"
