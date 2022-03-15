@@ -1,0 +1,18 @@
+renegotiate_contract_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+    cooldown = { years = 15 }
+	
+	is_shown = {
+        # vassal_contract_has_flag = vassal_contract_is_blocked_from_modification
+		has_trait = immortality
+        is_independent_ruler = no
+        vassal_contract_is_blocked_from_modification = yes
+	}
+	
+	effect = {
+		custom_tooltip = renegotiate_contract_decision_effect_tooltip
+		set_vassal_contract_modification_blocked = no
+	}
+
+	ai_check_interval = 0
+}

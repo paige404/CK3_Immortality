@@ -34,3 +34,9 @@
  new_faith_creation_decision_desc:0 "Are you ready to enlighten your people once more?"
  new_faith_creation_decision_effect_tooltip:0 "You feel prepared to create a new religion again."
  new_faith_creation_decision_confirm:0 "Behold!"
+ 
+ renegotiate_contract_decision:0 "Prepare to renegotiate your vassalage"
+ renegotiate_contract_decision_tooltip:0 "This decision will let you modify your feudal contract once again."
+ renegotiate_contract_decision_desc:0 "Modifying your feudal contract from time to time is only your right as an immortal."
+ renegotiate_contract_decision_effect_tooltip:0 "You feel empowered to modify your vassal contract again."
+ renegotiate_contract_decision_confirm:0 "Now to have a chat with my lord..."
