@@ -1,0 +1,7 @@
+﻿l_russian:
+# Immortality set age event
+ immortality_set_age.1.t:0 "На сколько лет я хочу выглядеть"
+ immortality_set_age.1.desc:0 "Я могу быть бессмертным, но это не значит, что я должен выглядеть так, как я есть."
+ immortality_set_age.1.option.a:0 "Почему бы не иметь настоящую вечную молодость?"
+ immortality_set_age.1.option.b:0 "Нет ничего плохого в том, чтобы быть немного старше"
+ immortality_set_age.1.option.c:0 "Позволь мне выглядеть как в глубокой старости!"
