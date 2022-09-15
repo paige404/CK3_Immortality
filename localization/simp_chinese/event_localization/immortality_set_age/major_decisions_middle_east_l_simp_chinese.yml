@@ -1,7 +1,7 @@
-﻿l_simp_chinese:
+l_simp_chinese:
 # 不朽： 设置年龄事件
- immortality_set_age.1.t:0 "你想变成多大?"
- immortality_set_age.1.desc:0 "我已永生, 但是并不意味着要看起来像我真实年龄一样老. 也许看起来 年轻点 或者 成熟点 是一个更好的选择?"
- immortality_set_age.1.option.a:0 "为什么不真正的永葆青春?"
- immortality_set_age.1.option.b:0 "成熟点没什么错."
- immortality_set_age.1.option.c:0 "QTMD! 让我变老吧!"
+ immortality_set_age.1.t:0 "我想变成什么年龄呢？"
+ immortality_set_age.1.desc:0 "我可能是永生的，但这并不意味着我的长相必须与我的年龄相符合。我看起来老一点或年轻一点有什么不对吗？"
+ immortality_set_age.1.option.a:0 "为什么不真正永葆青春呢？"
+ immortality_set_age.1.option.b:0 "看起来老一点没什么不好"
+ immortality_set_age.1.option.c:0 "切！让我看起来像个高龄老人吧！"
