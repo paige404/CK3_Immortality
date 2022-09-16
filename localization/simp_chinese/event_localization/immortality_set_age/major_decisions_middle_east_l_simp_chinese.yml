@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
 # 不朽： 设置年龄事件
  immortality_set_age.1.t:0 "我想变成什么年龄呢？"
  immortality_set_age.1.desc:0 "我可能是永生的，但这并不意味着我的长相必须与我的年龄相符合。我看起来老一点或年轻一点有什么不对吗？"
