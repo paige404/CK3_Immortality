@@ -1,0 +1,17 @@
+immortality_set_age_interaction = {
+	category = interaction_category_uncategorized
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+		on_accept = {
+			scope:recipient = {
+				save_scope_as = set_age
+			}
+			scope:actor = {
+				trigger_event = immortality_set_age.1
+			}
+		}
+
+	auto_accept = yes
+	ai_will_do = 0
+}
