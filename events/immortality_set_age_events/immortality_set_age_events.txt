@@ -18,7 +18,7 @@ immortality_set_age.1 = {
 	
 	option = { # Why not have true eternal youth?
 		name = immortality_set_age.1.option.a
-		scope:set_age = { set_immortal_age = 16 }
+		scope:set_age = { set_immortal_age = 18 }
 	}
 
 	option = { # Nothing wrong with being a bit older
