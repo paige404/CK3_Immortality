@@ -1,3 +1,4 @@
-﻿l_english:
+l_english:
  grant_immortality_interaction:0 "Grant immortality."
  remove_immortality_interaction:0 "Remove immortality."
+ immortality_set_age_interaction:0 "Set immortality age."
