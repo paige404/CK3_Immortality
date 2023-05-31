@@ -7,10 +7,10 @@ immortality_set_age.1 = {
 
 	theme = realm
 
-	left_portait = {
-		character = root
+	left_portrait = {
+		character = scope:set_age
 		animation = personality_honorable
-		}
+	}
 
 	immediate = {
 		play_music_cue = "mx_cue_succession"
@@ -18,17 +18,17 @@ immortality_set_age.1 = {
 	
 	option = { # Why not have true eternal youth?
 		name = immortality_set_age.1.option.a
-		set_immortal_age = 18
+		scope:set_age = { set_immortal_age = 18 }
 	}
 
 	option = { # Nothing wrong with being a bit older
 		name = immortality_set_age.1.option.b
-		set_immortal_age = 30
+		scope:set_age = { set_immortal_age = 30 }
 	}
 
 	option = { # Bah! Let me look be a ripe old age!
 		name = immortality_set_age.1.option.c
-		set_immortal_age = 80
+		scope:set_age = { set_immortal_age = 80 }
 	}
 
 }

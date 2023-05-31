@@ -11,6 +11,7 @@ set_age_decision = {
 	
 	effect = {
 		custom_tooltip = set_age_decision_effect_tooltip
+		save_scope_as = set_age
 		trigger_event = immortality_set_age.1
 	}
 
