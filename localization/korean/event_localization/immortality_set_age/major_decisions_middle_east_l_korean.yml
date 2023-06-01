@@ -1,0 +1,7 @@
+l_korean:
+# Immortality set age event
+ immortality_set_age.1.t:0 "어느 정도의 나이가 적당할까?"
+ immortality_set_age.1.desc:0 "불멸이 될 수 있겠지. 하지만 그것이 내가 지금 모습 그대로를 유지해야 한다는 것은 아니다. 불멸인 동안 좀 늙거나 어려 보이는 게 어때서?"
+ immortality_set_age.1.option.a:0 "영원한 젊음 그 자체는 어떨까?"
+ immortality_set_age.1.option.b:0 "좀 늙어 보여도 상관 없겠지"
+ immortality_set_age.1.option.c:0 "흥! 아예 노인이 되 버리지 뭐!"
