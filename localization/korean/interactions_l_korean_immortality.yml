@@ -1,0 +1,4 @@
+l_korean:
+ grant_immortality_interaction:0 "불사가 된다."
+ remove_immortality_interaction:0 "불사가 되지 않는다."
+ immortality_set_age_interaction:0 "불사 나이 설정하기"
