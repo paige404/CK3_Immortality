@@ -1,0 +1,42 @@
+l_korean:
+ immortality_decision:0 "불멸"
+ immortality_decision_tooltip:0 "이 결단은 당신을 불멸로 만드는 특성을 추가할 것입니다."
+ immortality_decision_desc:0 "죽음과 노화를 버릴 수 있다니."
+ immortality_decision_effect_tooltip:0 "불사신이 될 수 있는 선택지가 당신 앞에 놓여있습니다."
+ immortality_decision_confirm:0 "당연하지."
+
+ immortality_removal_decision:0 "불멸의 능력 포기하기"
+ immortality_removal_decision_tooltip:0 "이 결단은 당신이 다시 한번 자연스러운 방식으로 이 죽음의 굴레에서 벗어날 수 있게 해줄 것입니다."
+ immortality_removal_decision_desc:0 "영원한 삶을 포기할 시간이 와버렸을지도 모르겠다."
+ immortality_removal_decision_effect_tooltip:0 "이제 그만둘 시간인가?"
+ immortality_removal_decision_confirm:0 "준비됐다." 
+ 
+ new_invasion_decision:0 "새 침공 계획 세우기"
+ new_invasion_decision_tooltip:0 "이 결단은 다시 한번 왕국을 침략할 수 있게 할 것입니다."
+ new_invasion_decision_desc:0 "대정복을 다시 시작할 준비가 되셨습니까?"
+ new_invasion_decision_effect_tooltip:0 "당신과 당신의 군대는 또 다른 대형 군사 작전을 펼칠 준비가 되었습니다."
+ new_invasion_decision_confirm:0 "영광과 명예를 위해!" 
+ 
+ set_age_decision:0 "나이 정하기"
+ set_age_decision_tooltip:0 "이 결단은 불멸인 동안 몇 살로 나타날 지 정하게 해줄 것입니다."
+ set_age_decision_desc:0 "매일매일 늙어 보이는 것이 지겨우시죠?"
+ set_age_decision_effect_tooltip:0 "이미 나이를 고정시켰는데, 불멸인 동안 그 나이를 늘리거나 줄이는 거 어때요?"
+ set_age_decision_confirm:0 "이미 내 나이를 고정시켰는데, 왜 거기서 멈춰야 하지?"
+ 
+ restore_body_decision:0 "정신과 신체 건강 회복하기"
+ restore_body_decision_tooltip:0 "이 결단은 질병이나 부상 같은 부정적인 신체 효과를 당신에게서 없애 줄 것입니다."
+ restore_body_decision_desc:0 "노화도 멈췄는데, 회복도 할 수 있잖아요?"
+ restore_body_decision_effect_tooltip:0 "...무언가의 힘으로 당신의 신체와 정신 건강을 회복시킵니다."
+ restore_body_decision_confirm:0 "건강해지는 건 당연히 좋은 일이지."
+
+ new_faith_creation_decision:0 "새로운 신앙 만들 준비하기"
+ new_faith_creation_decision_tooltip:0 "이 결단은 다시 한번 새로운 신앙을 만들 수 있게 할 것입니다."
+ new_faith_creation_decision_desc:0 "국민들을 다시 한번 계몽시킬 준비가 되셨습니까?"
+ new_faith_creation_decision_effect_tooltip:0 "당신은 새로운 신앙을 다시 만들 준비가 되었습니다."
+ new_faith_creation_decision_confirm:0 "보라!"
+ 
+ renegotiate_contract_decision:0 "봉신 계약 수정 준비하기"
+ renegotiate_contract_decision_tooltip:0 "이 결단은 당신의 봉신 계약을 다시 수정할 수 있도록 할 것입니다."
+ renegotiate_contract_decision_desc:0 "때떄로 봉건 계약을 수정할 수 있는 것은 불멸로서 가지는 당신만의 권리입니다."
+ renegotiate_contract_decision_effect_tooltip:0 "당신은 봉신 계약을 다시 수정할 수 있는 권능을 느낍니다."
+ renegotiate_contract_decision_confirm:0 "이제 주군과 대화를 나눠볼까..."
