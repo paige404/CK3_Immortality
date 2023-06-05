@@ -1,0 +1,4 @@
+﻿l_korean:
+ trait_immortality:0 "불사"
+ trait_immortality_desc:0 "이 캐릭터는 노화의 한계를 뛰어넘었습니다."
+ trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 노화의 한계를 뛰어넘었습니다."
