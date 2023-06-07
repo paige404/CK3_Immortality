@@ -10,7 +10,7 @@ grant_immortality_interaction = {
 	}	
 
 	on_accept = {
-		scope:recipient = { add_trait = immortality}
+		scope:recipient = { add_trait = immortality }
 	}
 
 	auto_accept = yes

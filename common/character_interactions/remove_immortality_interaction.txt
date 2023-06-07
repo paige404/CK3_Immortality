@@ -10,7 +10,7 @@ remove_immortality_interaction = {
 	}
 
 	on_accept = {
-		scope:recipient = { remove_trait = immortality}
+		scope:recipient = { remove_trait = immortality }
 	}
 
 	auto_accept = yes
