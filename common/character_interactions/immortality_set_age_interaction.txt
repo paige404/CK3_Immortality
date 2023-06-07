@@ -9,14 +9,14 @@ immortality_set_age_interaction = {
 		}
 	}
 
-		on_accept = {
-			scope:recipient = {
-				save_scope_as = set_age
-			}
-			scope:actor = {
-				trigger_event = immortality_set_age.1
-			}
+	on_accept = {
+		scope:recipient = {
+			save_scope_as = set_age
 		}
+		scope:actor = {
+			trigger_event = immortality_set_age.1
+		}
+	}
 
 	auto_accept = yes
 	ai_will_do = 0
