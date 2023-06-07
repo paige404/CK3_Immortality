@@ -3,6 +3,12 @@ immortality_set_age_interaction = {
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
 
+	is_shown = {
+		scope:recipient = { 
+			has_trait = immortality
+		}
+	}
+
 		on_accept = {
 			scope:recipient = {
 				save_scope_as = set_age

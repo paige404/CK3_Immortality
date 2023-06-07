@@ -3,6 +3,12 @@ grant_immortality_interaction = {
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
 
+	is_shown = {
+		scope:recipient = { 
+			NOT = { has_trait = immortality }
+		}
+	}	
+
 	on_accept = {
 		scope:recipient = { add_trait = immortality}
 	}

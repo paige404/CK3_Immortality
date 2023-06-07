@@ -3,9 +3,15 @@ remove_immortality_interaction = {
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
 
-		on_accept = {
-			scope:recipient = { remove_trait = immortality}
+	is_shown = {
+		scope:recipient = { 
+			has_trait = immortality
 		}
+	}
+
+	on_accept = {
+		scope:recipient = { remove_trait = immortality}
+	}
 
 	auto_accept = yes
 	ai_will_do = 0
