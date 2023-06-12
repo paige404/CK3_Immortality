@@ -2,3 +2,4 @@
  grant_immortality_interaction:0 "Grant immortality."
  remove_immortality_interaction:0 "Remove immortality."
  immortality_set_age_interaction:0 "Set immortality age."
+ restore_body_interaction:0 "Restore body and mind."
