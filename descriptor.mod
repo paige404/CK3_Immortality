@@ -4,4 +4,4 @@ tags={
 	"Decisions"
 }
 name="Immortality Improved"
-supported_version="1.11.5"
+supported_version="1.12.*"
