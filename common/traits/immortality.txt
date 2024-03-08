@@ -1,5 +1,5 @@
 immortality = {
-	index = 725
+	#index = 725
 
 	immortal = yes
 	health = 10
