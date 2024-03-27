@@ -1,3 +1,5 @@
 ﻿l_simp_chinese:
  grant_immortality_interaction:0 "给予不朽。"
  remove_immortality_interaction:0 "移除不朽。"
+ immortality_set_age_interaction:0 "设置年龄。"
+ restore_body_interaction:0 "恢复身心。"
