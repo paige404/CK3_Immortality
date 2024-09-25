@@ -1,5 +1,7 @@
 new_faith_creation_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+    }
 	
 	is_shown = {
 		has_character_flag = has_created_a_faith

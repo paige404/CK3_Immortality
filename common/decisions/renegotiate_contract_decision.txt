@@ -1,5 +1,7 @@
 renegotiate_contract_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+	picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+    }
     cooldown = { years = 15 }
 	
 	is_shown = {
