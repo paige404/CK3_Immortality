@@ -5,7 +5,10 @@ new_faith_creation_decision = {
 	
 	is_shown = {
 		has_character_flag = has_created_a_faith
-		has_trait = immortality
+		OR = {
+			has_trait = immortality
+			has_trait = immortal
+		}
 	}
 	
 	is_valid_showing_failures_only = {

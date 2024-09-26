@@ -4,7 +4,10 @@ set_age_decision = {
     }
 	
 	is_shown = {
-		has_trait = immortality
+		OR = {
+			has_trait = immortality
+			has_trait = immortal
+		}
 	}
 
 	is_valid_showing_failures_only = {

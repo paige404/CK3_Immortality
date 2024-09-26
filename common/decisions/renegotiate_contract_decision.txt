@@ -6,7 +6,10 @@ renegotiate_contract_decision = {
 	
 	is_shown = {
         # vassal_contract_has_flag = vassal_contract_is_blocked_from_modification
-		has_trait = immortality
+		OR = {
+			has_trait = immortality
+			has_trait = immortal
+		}
         is_independent_ruler = no
         vassal_contract_is_blocked_from_modification = yes
 	}

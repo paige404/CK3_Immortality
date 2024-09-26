@@ -5,7 +5,12 @@ immortality_set_age_interaction = {
 
 	is_shown = {
 		scope:recipient = { 
-			has_trait = immortality
+			AND = {
+				OR = {
+					has_trait = immortality
+					has_trait = immortal
+				}
+			}
 		}
 	}
 
