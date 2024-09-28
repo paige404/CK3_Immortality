@@ -9,7 +9,10 @@ new_invasion_decision = {
 			has_character_flag = declared_major_religious_war_flag
 			has_character_flag = used_lifetime_subjugation
 		}
-		has_trait = immortality
+		OR = {
+			has_trait = immortality
+			has_trait = immortal
+		}
 	}
 	
 	is_valid_showing_failures_only = {
