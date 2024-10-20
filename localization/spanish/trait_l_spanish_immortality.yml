@@ -1,0 +1,4 @@
+﻿l_spanish:
+  trait_immortality:0 "Inmortalidad"
+  trait_immortality_desc:0 "Esta persona ha dejado atrás las cadenas del envejecimiento."
+  trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha dejado atrás las cadenas del envejecimiento."
