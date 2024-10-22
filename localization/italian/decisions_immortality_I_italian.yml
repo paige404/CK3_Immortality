@@ -1,0 +1,9 @@
+﻿l_italian:
+  immortality_decision:0 "Immortalità"
+  immortality_decision_tooltip:0 “Questa decisione aggiunge un tratto che vi rende immortali”.
+  immortalitu_decision_desc:0 "Lasciarsi alle spalle la morte e l'invecchiamento?"
+  immortality_decision_effect_tooltip:0 
+
+  immortality_removal_decision:0 "Rinunciare all'immortalità"
+  immortality_removal_decision_tooltip:0 "Questa decisione vi consentirà di lasciare nuovamente questa spoglia mortale in modo naturale."
+  
