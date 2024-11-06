@@ -1,0 +1,7 @@
+﻿l_spanish: 
+  # Immortality set age event
+  immortality_set_age.1.t:0 "¿Qué edad quiero tener?"
+  immortality_set_age.1.desc:0 "Puede que sea inmortal, pero eso no significa que tenga que parecer como soy. ¿Qué tiene de malo que parezca un poco más viejo o más joven mientras tanto?"
+  immortality_set_age.1.option.a:0 "¿Por qué no tener una verdadera juventud eterna?"
+  immortality_set_age.1.option.b:0 "No hay nada de malo en parecer un poco más viejo"
+  immortality_set_age.1.option.c:0 "¡Bah! ¡Déjame parecer de una edad avanzada!"

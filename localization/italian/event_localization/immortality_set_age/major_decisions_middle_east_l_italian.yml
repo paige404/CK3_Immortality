@@ -1,0 +1,7 @@
+﻿l_italian: 
+# Immortality set age event
+  immortality_set_age.1.t:0 "Quanti anni voglio avere?"
+  immortality_set_age.1.desc:0 "Saro anche immortale, ma questo non significa che devo avere l'aspetto che ho. Cosa c'è di male se sembro un po' più vecchio o più giovane gia che ci sono?"
+  immortality_set_age.1.option.a:0 "Perché non avere la vera eterna giovinezza?"
+  immortality_set_age.1.option.b:0 "Non c'è niente di male nell'essere un po' più vecchi"
+  immortality_set_age.1.option.c:0 "Bah! Lasciami sembrare come un'età avanzata!"

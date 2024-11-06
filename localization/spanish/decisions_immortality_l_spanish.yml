@@ -1,0 +1,42 @@
+﻿l_spanish:
+  immortality_decision:0 "Inmortalidad"
+  immortality_decision_tooltip:0 "Esta decisión añade un rasgo que te hace inmortal."
+  immortality_decision_desc:0 "¿Dejar atrás la muerte y el envejecimiento?"
+  immortality_decision_effect_tooltip:0 "La elección de volverte inmortal está ante ti"
+  immortality_decision_confirm:0 "Sí."
+
+  immortality_removal_decision:0 "Renunciar a tu inmortalidad"
+  immortality_removal_decision_tooltip:0 "Esta decisión te permitirá abandonar esta vida mortal de nuevo de forma natural."
+  immortality_removal_decision_desc:0 "¿Quizás es el momento
+  immortality_removal_decision_effect_tooltip:0 "¿Es hora de seguir adelante?"
+  immortality_removal_decision_confirm:0 "Sí, estoy listo ahora."
+
+  new_invasion_decision:0 "Planificar una nueva invasión"
+  new_invasion_decision_tooltip:0 "Esta decisión te permitirá invadir un reino una vez más."
+  new_invasion_decision_desc:0 "¿Estás listo para emprender grandes conquistas una vez más?"
+  new_invasion_decision_effect_tooltip:0 "Tú y tus ejércitos estáis listos para emprender otra gran campaña."
+  new_invasion_decision_confirm:0 "¡Por el honor y la gloria!"
+
+  set_age_decision:0 "Elegir una edad"
+  set_age_decision_tooltip:0 "Esta decisión te permitirá elegir cuántos años deseas aparentar mientras eres inmortal."
+  set_age_decision_desc:0 "¿Cansado de la misma apariencia?"
+  set_age_decision_effect_tooltip:0 "Ya has usado tu control sobre la edad para congelar la tuya, ¿por qué no avanzarla o retrocederla un poco mientras estás en ello?"
+  set_age_decision_confirm:0 "Ya he congelado mi edad, ¿por qué detenerme ahí?"
+
+  restore_body_decision:0 "Restaurar
+  restore_body_decision_tooltip:0 "Esta decisión eliminará todos los efectos negativos de salud de ti, como enfermedades o heridas."
+  restore_body_decision_desc:0 "Puedes detener el envejecimiento de tu cuerpo, ¿por qué no restaurarlo también?"
+  restore_body_decision_effect_tooltip:0 "Cura tu cuerpo y mente con el poder de... algo."
+  restore_body_decision_confirm:0 "¿Por qué no querría estar sano?"
+
+  new_faith_creation_decision:0 "Prepararse para crear una nueva fe"
+  new_faith_creation_decision_tooltip:0 "Esta decisión te permitirá crear una nueva fe una vez más."
+  new_faith_creation_decision_desc:0 "¿Estás listo para iluminar a tu pueblo una vez más?"
+  new_faith_creation_decision_effect_tooltip:0 "Te sientes preparado para crear una nueva religión de nuevo."
+  new_faith_creation_decision_confirm:0 "¡He aquí!"
+
+  renegotiate_contract_decision:0 "Prepararse para renegociar tu vasallaje"
+  renegotiate_contract_decision_tooltip:0 "Esta decisión te permitirá modificar tu contrato feudal una vez más."
+  renegotiate_contract_decision_desc:0 "Modificar tu contrato feudal de vez en cuando es solo tu derecho como inmortal."
+  renegotiate_contract_decision_effect_tooltip:0 "Te sientes empoderado para modificar tu contrato de vasallaje de nuevo."
+  renegotiate_contract_decision_confirm:0 "Ahora a tener una charla con mi señor..."

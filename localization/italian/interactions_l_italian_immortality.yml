@@ -1,0 +1,6 @@
+﻿l_italian: 
+  grant_immortality_decision:0 "Concedere l'Immortalità"
+  remove_immortality_decision_desc:0 "rimuovere l'immortalità"
+
+  immortality_set_age_interaction:0 "Imposta l'età dell'immortalità"
+  restore_body_interaction:0 "Ripristina corpo e mente"
