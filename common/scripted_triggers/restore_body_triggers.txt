@@ -1,0 +1,43 @@
+restore_body_trigger = {
+	OR = {
+		has_trait = immortality
+		has_trait = immortal
+	}
+	OR = {
+		has_trait = wounded_1
+		has_trait = wounded_2
+		has_trait = wounded_3
+		has_trait = maimed
+		has_trait = one_eyed
+		has_trait = one_legged
+		has_trait = disfigured
+		has_trait = infirm
+		has_trait = incapable
+		has_trait = gout_ridden
+		has_trait = consumption
+		has_trait = cancer
+		has_trait = typhus
+		has_trait = bubonic_plague
+		has_trait = smallpox
+		has_trait = measles
+		has_trait = dysentery
+		has_trait = ergotism
+		has_trait = sickly
+		has_trait = scarred
+		has_trait = eunuch_1
+		has_trait = beardless_eunuch
+		has_trait = blind
+		has_trait = leper
+		has_trait = lovers_pox
+		has_trait = early_great_pox
+		has_trait = great_pox
+		has_trait = pneumonic
+		has_trait = ill
+		has_trait = possessed_genetic
+		has_trait = possessed_1
+		has_trait = lunatic_genetic
+		has_trait = lunatic_1
+		has_trait = depressed_genetic
+		has_trait = depressed_1
+	}
+}
