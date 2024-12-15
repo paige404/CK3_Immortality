@@ -2,7 +2,6 @@ immortality_set_age_interaction = {
 	category = interaction_category_uncategorized
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
-
 	is_shown = {
 		scope:recipient = {
 			OR = {
@@ -11,7 +10,6 @@ immortality_set_age_interaction = {
 			}
 		}
 	}
-
 	on_accept = {
 		scope:recipient = {
 			save_scope_as = set_age
@@ -20,7 +18,8 @@ immortality_set_age_interaction = {
 			trigger_event = immortality_set_age.1
 		}
 	}
-
 	auto_accept = yes
-	ai_will_do = 0
+	ai_will_do = {
+		base = 0
+	}
 }
