@@ -1,0 +1,4 @@
+﻿l_polish:
+ trait_immortality:0 "Nieśmiertelność"
+ trait_immortality_desc:0 "Ta postać uwolniła się od ograniczeń starzenia się."
+ trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] uwolnił się od ograniczeń starzenia się."
