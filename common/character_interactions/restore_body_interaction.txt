@@ -1,4 +1,4 @@
-restore_body_interaction = {
+﻿restore_body_interaction = {
 	category = interaction_category_uncategorized
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes

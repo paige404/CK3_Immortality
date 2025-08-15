@@ -1,4 +1,4 @@
-immortality = {
+﻿immortality = {
 	#index = 725
 
 	immortal = yes

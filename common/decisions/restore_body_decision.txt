@@ -1,4 +1,4 @@
-restore_body_decision = {
+﻿restore_body_decision = {
 	picture = {
         reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
     }
