@@ -1,9 +1,0 @@
-{
-    "cwtools.errors.ignore": [
-        "CW262",
-        "CW263",
-        "CW240",
-        "CW242",
-        "CW249"
-    ]
-}
