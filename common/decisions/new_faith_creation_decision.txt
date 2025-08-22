@@ -1,4 +1,4 @@
-new_faith_creation_decision = {
+﻿new_faith_creation_decision = {
 	picture = {
         reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
     }
