@@ -1,7 +1,7 @@
-version="0.0.1"
+version="0.1.0"
 tags={
 	"Gameplay"
 	"Decisions"
 }
 name="Immortality Improved"
-supported_version="1.13.*"
+supported_version="1.16.*"
