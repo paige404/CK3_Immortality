@@ -5,8 +5,6 @@ immortality = {
 	health = 10
 	no_prowess_loss_from_age = yes
 	years_of_fertility = 9999
-	murder_scheme_success_chance = -1.0
-	murder_scheme_resistance_add = 10000
 	
 	desc = {
 		first_valid = {
