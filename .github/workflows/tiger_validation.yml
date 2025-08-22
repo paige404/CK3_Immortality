@@ -35,4 +35,5 @@ jobs:
         uses: ./validation/
         with:
           action-directory: 'validation'
+          game: 'ck3'
           update-tiger: 'true'
