@@ -1,4 +1,4 @@
-set_age_decision = {
+﻿set_age_decision = {
 	picture = {
         reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
     }

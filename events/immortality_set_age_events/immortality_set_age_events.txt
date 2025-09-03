@@ -1,4 +1,4 @@
-namespace = immortality_set_age
+﻿namespace = immortality_set_age
 
 immortality_set_age.1 = {
 	type = character_event

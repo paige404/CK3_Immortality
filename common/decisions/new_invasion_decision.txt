@@ -1,4 +1,4 @@
-new_invasion_decision = {
+﻿new_invasion_decision = {
 	picture = {
         reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
     }

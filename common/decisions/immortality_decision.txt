@@ -1,4 +1,4 @@
-immortality_decision = {
+﻿immortality_decision = {
 	picture = {
         reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
     }

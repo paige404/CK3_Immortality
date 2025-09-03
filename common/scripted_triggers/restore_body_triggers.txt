@@ -1,4 +1,4 @@
-restore_body_trigger = {
+﻿restore_body_trigger = {
 	OR = {
 		has_trait = immortality
 		has_trait = immortal
