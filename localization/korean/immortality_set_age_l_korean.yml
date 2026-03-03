@@ -1,0 +1,23 @@
+﻿l_korean:
+  immortality_set_age.1.t: "어느 정도의 나이가 적당할까?"
+  immortality_set_age.1.desc: "불멸이 될 수 있겠지. 하지만 그것이 내가 지금 모습 그대로를 유지해야 한다는 것은 아니다. 불멸인 동안 좀 늙거나 어려 보이는 게 어때서?\n\n현재 불사의 나이: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "불사의 연령을 #value 25#! 증가시킵니다"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "불사의 연령을 #value 5#! 증가시킵니다"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "불사의 연령을 #value 1#! 증가시킵니다"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "불사의 연령을 #value 1#! 감소시킵니다"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "불사의 연령을 #value 5#! 감소시킵니다"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "불사의 연령을 #value 25#! 감소시킵니다"
+
+  immortality_set_age.1.option.exit: "불멸의 시대 메뉴를 종료하세요!"

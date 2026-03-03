@@ -1,0 +1,23 @@
+﻿l_spanish:
+  immortality_set_age.1.t: "¿Qué edad quiero tener?"
+  immortality_set_age.1.desc: "Puede que sea inmortal, pero eso no significa que tenga que parecer como soy. ¿Qué tiene de malo que parezca un poco más viejo o más joven mientras tanto?\n\nEdad actual de inmortalidad: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "Aumenta la edad de inmortalidad en #value 25#!"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "Aumenta la edad de inmortalidad en #value 5#!"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "Aumenta la edad de inmortalidad en #value 1#!"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "Reduce la edad de inmortalidad en #value 1#!"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "Reduce la edad de inmortalidad en #value 5#!"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "Reduce la edad de inmortalidad en #value 25#!"
+
+  immortality_set_age.1.option.exit: "¡Sal del menú de la era de la inmortalidad!"

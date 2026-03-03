@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+  immortality_set_age.1.t: "我想变成什么年龄呢？"
+  immortality_set_age.1.desc: "我可能是永生的，但这并不意味着我的长相必须与我的年龄相符合。我看起来老一点或年轻一点有什么不对吗？\n\n当前不朽年龄： #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "将不朽年限延长#value 25#!年"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "将不朽年限延长#value 5#!年"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "将不朽年限延长#value 1#!年"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "降低不死年龄#value 1#!岁"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "降低不死年龄#value 5#!岁"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "降低不死年龄#value 25#!岁"
+
+  immortality_set_age.1.option.exit: "退出不朽时代菜单！"

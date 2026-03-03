@@ -1,0 +1,23 @@
+﻿l_french:
+  immortality_set_age.1.t: "Quel âge je souhaite avoir?"
+  immortality_set_age.1.desc: "j'ai beau être immortel, cela ne veut pas dire que je dois garder mon apparence. qu'est ce qu'il y a de mal a paraitre un peu plus vieux ou un peu plus jeune pendant que j'y suis?\n\nÂge actuel de l'immortalité: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "Augmente l'âge d'immortalité de #value 25#! ans"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "Augmente l'âge d'immortalité de #value 5#! ans"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "Augmente l'âge d'immortalité de #value 1#! ans"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "Réduit l'âge d'immortalité de #value 1#! ans"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "Réduit l'âge d'immortalité de #value 5#! ans"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "Réduit l'âge d'immortalité de #value 25#! ans"
+
+  immortality_set_age.1.option.exit: "Quittez le menu Âge d'immortalité!"
