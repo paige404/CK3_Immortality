@@ -12,6 +12,7 @@
 	on_accept = {
 		scope:recipient = {
 			add_trait = immortality
+			create_reference_age_variable = yes
 		}
 	}
 	auto_accept = yes
