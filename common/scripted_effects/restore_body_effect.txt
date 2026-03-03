@@ -1,4 +1,4 @@
-restore_body_effect = {
+﻿restore_body_effect = {
 	custom_tooltip = restore_body_decision_effect_tooltip
 	remove_trait = wounded_1
 	remove_trait = wounded_2
