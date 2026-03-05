@@ -1,4 +1,4 @@
-renegotiate_contract_decision = {
+﻿renegotiate_contract_decision = {
 	picture = {
         reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
     }
