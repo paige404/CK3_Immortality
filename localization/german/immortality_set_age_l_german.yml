@@ -1,0 +1,23 @@
+﻿l_german:
+  immortality_set_age.1.t: "Wie alt sollte ich sein?"
+  immortality_set_age.1.desc: "Ich bin vielleicht ein Unsterblicher, aber das bedeutet nicht, dass ich auch wie einer aussehen muss. Was ist denn falsch damit, ein bisschen älter oder jünger auszusehen?\n\nAktuelles Unsterblichkeitsalter: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "Erhöht das Unsterblichkeitsalter um #value 25#!"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "Erhöht das Unsterblichkeitsalter um #value 5#!"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "Erhöht das Unsterblichkeitsalter um #value 1#!"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "Verringert das Unsterblichkeitsalter um #value 1#!"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "Verringert das Unsterblichkeitsalter um #value 5#!"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "Verringert das Unsterblichkeitsalter um #value 25#!"
+
+  immortality_set_age.1.option.exit: "Verlassen Sie das Menü Unsterblichkeitszeitalter!"

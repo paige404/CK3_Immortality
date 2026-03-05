@@ -1,0 +1,23 @@
+﻿l_russian:
+  immortality_set_age.1.t: "На сколько лет я хочу выглядеть?"
+  immortality_set_age.1.desc: "Я могу быть бессмертным, но это не значит, что я должен выглядеть так, как я есть.\n\nТекущий возраст бессмертия: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "Увеличивает возраст бессмертия на #value 25#! лет"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "Увеличивает возраст бессмертия на #value 5#! лет"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "Увеличивает возраст бессмертия на #value 1#! лет"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "Уменьшает возраст бессмертия на #value 1#! лет"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "Уменьшает возраст бессмертия на #value 5#! лет"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "Уменьшает возраст бессмертия на #value 25#! лет"
+
+  immortality_set_age.1.option.exit: "Выйти из меню эпохи бессмертия!"

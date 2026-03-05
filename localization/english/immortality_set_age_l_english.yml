@@ -1,0 +1,23 @@
+﻿l_english:
+  immortality_set_age.1.t: "How old do I want to be?"
+  immortality_set_age.1.desc: "I may be immortal, but that doesn't mean I have to look as I do. What's wrong with me looking a bit older or younger while I'm at it?\n\nCurrent immortality age: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "Increases the immortality age by #value 25#!"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "Increases the immortality age by #value 5#!"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "Increases the immortality age by #value 1#!"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "Decreases the immortality age by #value 1#!"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "Decreases the immortality age by #value 5#!"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "Decreases the immortality age by #value 25#!"
+
+  immortality_set_age.1.option.exit: "Exit the immortality age menu!"

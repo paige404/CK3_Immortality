@@ -1,0 +1,36 @@
+﻿## I have separated it out into multiple different functions for better readability
+## All of these functions requires the scope to be the target character
+create_reference_age_variable = {
+	if = {
+		limit = {
+			NOT = {
+				has_variable = reference_age
+			}
+		}
+		set_variable = {
+			name = reference_age
+			value = age
+		}
+	}
+}
+
+remove_reference_age_variable = {
+	if = {
+		limit = {
+			has_variable = reference_age
+		}
+		remove_variable = reference_age
+	}
+}
+
+sync_immortality_age = {
+	set_immortal_age = var:reference_age
+}
+
+change_immortality_age = {
+	change_variable = {
+		name = reference_age
+		add = $CHANGE_AMOUNT$
+	}
+	sync_immortality_age = yes
+}

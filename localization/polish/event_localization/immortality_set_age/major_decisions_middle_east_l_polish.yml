@@ -1,7 +1,0 @@
-﻿l_polish:
-# Ustawienie wieku w wydarzeniu nieśmiertelności
- immortality_set_age.1.t:0 "Ile lat chcę mieć?"
- immortality_set_age.1.desc:0 "Mogę być nieśmiertelny, ale to nie znaczy, że muszę wyglądać tak, jak wyglądam. Co jest złego w tym, że wyglądam trochę starzej lub młodziej, gdy już przy tym jestem?"
- immortality_set_age.1.option.a:0 "Czemu nie mieć prawdziwej wiecznej młodości?"
- immortality_set_age.1.option.b:0 "Nie ma nic złego w byciu trochę starszym"
- immortality_set_age.1.option.c:0 "Bah! Pozwól mi wyglądać na dojrzały wiek!"

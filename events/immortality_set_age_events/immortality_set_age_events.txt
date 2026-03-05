@@ -1,34 +1,98 @@
 ﻿namespace = immortality_set_age
-
 immortality_set_age.1 = {
 	type = character_event
 	title = immortality_set_age.1.t
 	desc = immortality_set_age.1.desc
-
 	theme = realm
-
 	left_portrait = {
 		character = scope:set_age
 		animation = personality_honorable
 	}
-
 	immediate = {
 		play_music_cue = "mx_cue_succession"
+		# Ensure the reference age variable exists
+		create_reference_age_variable = yes
 	}
-	
-	option = { # Why not have true eternal youth?
-		name = immortality_set_age.1.option.a
-		scope:set_age = { set_immortal_age = 18 }
+	option = {
+		# Increase age by 25
+		name = immortality_set_age.1.option.i25
+		flavor = immortality_set_age.1.option.i25_desc
+		hidden_effect = {
+			scope:set_age = {
+				change_immortality_age = {
+					CHANGE_AMOUNT = 25
+				}
+			}
+		}
+		trigger_event = immortality_set_age.1
 	}
-
-	option = { # Nothing wrong with being a bit older
-		name = immortality_set_age.1.option.b
-		scope:set_age = { set_immortal_age = 30 }
+	option = {
+		# Increase age by 5
+		name = immortality_set_age.1.option.i5
+		flavor = immortality_set_age.1.option.i5_desc
+		hidden_effect = {
+			scope:set_age = {
+				change_immortality_age = {
+					CHANGE_AMOUNT = 5
+				}
+			}
+		}
+		trigger_event = immortality_set_age.1
 	}
-
-	option = { # Bah! Let me look be a ripe old age!
-		name = immortality_set_age.1.option.c
-		scope:set_age = { set_immortal_age = 80 }
+	option = {
+		# Increase age by 1
+		name = immortality_set_age.1.option.i1
+		flavor = immortality_set_age.1.option.i1_desc
+		hidden_effect = {
+			scope:set_age = {
+				change_immortality_age = {
+					CHANGE_AMOUNT = 1
+				}
+			}
+		}
+		trigger_event = immortality_set_age.1
 	}
-
+	option = {
+		# Decrease age by 1
+		name = immortality_set_age.1.option.d1
+		flavor = immortality_set_age.1.option.d1_desc
+		hidden_effect = {
+			scope:set_age = {
+				change_immortality_age = {
+					CHANGE_AMOUNT = -1
+				}
+			}
+		}
+		trigger_event = immortality_set_age.1
+	}
+	option = {
+		# Decrease age by 5
+		name = immortality_set_age.1.option.d5
+		flavor = immortality_set_age.1.option.d5_desc
+		hidden_effect = {
+			scope:set_age = {
+				change_immortality_age = {
+					CHANGE_AMOUNT = -5
+				}
+			}
+		}
+		trigger_event = immortality_set_age.1
+	}
+	option = {
+		# Decrease age by 25
+		name = immortality_set_age.1.option.d25
+		flavor = immortality_set_age.1.option.d25_desc
+		hidden_effect = {
+			scope:set_age = {
+				change_immortality_age = {
+					CHANGE_AMOUNT = -25
+				}
+			}
+		}
+		trigger_event = immortality_set_age.1
+	}
+	option = {
+		# Exit
+		name = immortality_set_age.1.option.exit
+	}
 }

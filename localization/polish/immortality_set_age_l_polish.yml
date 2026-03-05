@@ -1,0 +1,23 @@
+﻿l_polish:
+  immortality_set_age.1.t: "Ile lat chcę mieć?"
+  immortality_set_age.1.desc: "Mogę być nieśmiertelny, ale to nie znaczy, że muszę wyglądać tak, jak wyglądam. Co jest złego w tym, że wyglądam trochę starzej lub młodziej, gdy już przy tym jestem?\n\nObecny wiek nieśmiertelności: #value [set_age.MakeScope.Var('reference_age').GetValue]#!"
+
+  immortality_set_age.1.option.i25: "+25"
+  immortality_set_age.1.option.i25_desc: "Zwiększa wiek nieśmiertelności o #value 25#!"
+
+  immortality_set_age.1.option.i5: "+5"
+  immortality_set_age.1.option.i5_desc: "Zwiększa wiek nieśmiertelności o #value 5#!"
+
+  immortality_set_age.1.option.i1: "+1"
+  immortality_set_age.1.option.i1_desc: "Zwiększa wiek nieśmiertelności o #value 1#!"
+
+  immortality_set_age.1.option.d1: "-1"
+  immortality_set_age.1.option.d1_desc: "Zmniejsza wiek nieśmiertelności o 5 #value 1#!"
+
+  immortality_set_age.1.option.d5: "-5"
+  immortality_set_age.1.option.d5_desc: "Zmniejsza wiek nieśmiertelności o 5 #value 5#!"
+
+  immortality_set_age.1.option.d25: "-25"
+  immortality_set_age.1.option.d25_desc: "Zmniejsza wiek nieśmiertelności o 5 #value 25#!"
+
+  immortality_set_age.1.option.exit: "Wyjdź z menu wieku nieśmiertelności!"

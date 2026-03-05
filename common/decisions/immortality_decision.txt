@@ -1,8 +1,7 @@
 ﻿immortality_decision = {
 	picture = {
-        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
-    }
-
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
 	}
@@ -14,7 +13,7 @@
 	effect = {
 		custom_tooltip = immortality_decision_effect_tooltip
 		add_trait = immortality
+		create_reference_age_variable = yes
 	}
-
 	ai_check_interval = 0
 }
