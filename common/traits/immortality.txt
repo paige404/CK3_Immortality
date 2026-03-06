@@ -1,11 +1,10 @@
 ﻿immortality = {
-	#index = 725
-
 	immortal = yes
 	health = 10
 	no_prowess_loss_from_age = yes
 	years_of_fertility = 9999
-	
+	opposites = { incapable }
+
 	desc = {
 		first_valid = {
 			triggered_desc = {
