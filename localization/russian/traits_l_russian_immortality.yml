@@ -1,4 +1,4 @@
 ﻿l_russian:
- trait_immortality:0 "Immortality"
- trait_immortality_desc:0 "Этот персонаж избежал ограничений старения."
- trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] избежал ограничений старения."
+  trait_immortality: "Immortality"
+  trait_immortality_desc: "Этот персонаж избежал ограничений старения."
+  trait_immortality_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] избежал ограничений старения."

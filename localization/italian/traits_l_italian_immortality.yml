@@ -1,5 +1,4 @@
-﻿l_italian: 
-  trait_immortality:0 "Immortalità"
-  trait_immortality_desc:0 "Questa persona ha lasciato alle spalle le catene dell'invecchiamento."
-  trait_immortality_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha lasciato alle spalle le catene dell'invecchiamento."
-
+﻿l_italian:
+  trait_immortality: "Immortalità"
+  trait_immortality_desc: "Questa persona ha lasciato alle spalle le catene dell'invecchiamento."
+  trait_immortality_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha lasciato alle spalle le catene dell'invecchiamento."
