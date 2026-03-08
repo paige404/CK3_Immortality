@@ -32,5 +32,14 @@ change_immortality_age = {
 		name = reference_age
 		add = $CHANGE_AMOUNT$
 	}
+	if = {
+		limit = {
+			var:reference_age > age
+		}
+		set_variable = {
+			name = reference_age
+			value = age
+		}
+	}
 	sync_immortality_age = yes
 }
