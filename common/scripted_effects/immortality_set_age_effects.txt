@@ -41,5 +41,14 @@ change_immortality_age = {
 			value = age
 		}
 	}
+	if = {
+		limit = {
+			var:reference_age < 16
+		}
+		set_variable = {
+			name = reference_age
+			value = 16
+		}
+	}
 	sync_immortality_age = yes
 }
