@@ -11,7 +11,9 @@ immortality_set_age.1 = {
 	immediate = {
 		play_music_cue = "mx_cue_succession"
 		# Ensure the reference age variable exists
-		create_reference_age_variable = yes
+		scope:set_age = {
+			create_reference_age_variable = yes
+		}
 	}
 	option = {
 		# Increase age by 25
