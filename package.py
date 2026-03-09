@@ -4,7 +4,7 @@ import shutil
 
 package_directory = "package"
 included_directories = ["common", "events", "gfx", "localization"]
-included_files = ["descriptor.mod", "README-CN.md", "README.md"]
+included_files = ["descriptor.mod", "README-CN.md", "README.md", "thumbnail.png"]
 
 
 def ensure_directory_exists(directory_path: Path) -> None:
