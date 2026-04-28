@@ -1,5 +1,6 @@
 ﻿immortality = {
 	immortal = yes
+	flag = is_immortal
 	health = 10
 	no_prowess_loss_from_age = yes
 	opposites = { incapable }

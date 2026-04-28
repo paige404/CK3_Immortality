@@ -39,5 +39,9 @@
 		has_trait = lunatic_1
 		has_trait = depressed_genetic
 		has_trait = depressed_1
+		has_trait = withering_mind
+		has_trait = clouded_eyes
+		has_trait = faltering_heart
+		has_trait = fragile_bones
 	}
 }
