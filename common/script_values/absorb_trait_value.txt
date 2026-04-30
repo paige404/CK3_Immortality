@@ -1,0 +1,10 @@
+﻿absorb_base_chance = 35
+
+absorb_two_step_bonus = 10
+absorb_three_step_bonus = 20
+absorb_four_step_bonus = 30
+absorb_five_step_bonus = 40
+absorb_six_step_bonus = 50
+
+absorb_blood_legacy_one_bonus = 10
+absorb_blood_legacy_two_bonus = 10
