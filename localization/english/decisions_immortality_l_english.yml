@@ -40,3 +40,5 @@
   renegotiate_contract_decision_desc: "Modifying your feudal contract from time to time is only your right as an immortal."
   renegotiate_contract_decision_effect_tooltip: "You feel empowered to modify your vassal contract again."
   renegotiate_contract_decision_confirm: "Now to have a chat with my lord..."
+
+  decision_group_type_immortality_decision_group: "Immortality Decisions"

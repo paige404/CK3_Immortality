@@ -2,6 +2,7 @@
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
 	}
+	decision_group_type = immortality_decision_group
 	cooldown = {
 		years = 15
 	}

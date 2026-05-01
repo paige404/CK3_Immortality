@@ -2,6 +2,7 @@
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
 	}
+	decision_group_type = immortality_decision_group
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
 	}
