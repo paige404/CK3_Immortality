@@ -1,0 +1,21 @@
+﻿absorb_trait_interaction = {
+	category = interaction_category_uncategorized
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	is_shown = {
+		absorb_trait_trigger = {
+			IMMORTAL = scope:actor
+			DONOR = scope:recipient
+		}
+	}
+	on_accept = {
+		absorb_trait_interaction_effect = {
+			IMMORTAL = scope:actor
+			DONOR = scope:recipient
+		}
+	}
+	auto_accept = yes
+	ai_will_do = {
+		base = 0
+	}
+}
