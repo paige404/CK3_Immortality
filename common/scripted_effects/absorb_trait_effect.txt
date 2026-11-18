@@ -159,13 +159,13 @@
 									has_trait = beauty_bad_3
 								}
 							}
-							subtract = absorb_two_step_bonus
+							subtract = absorb_three_step_bonus
 						}
 						if = {
 							limit = {
 								has_trait = beauty_good_1
 							}
-							subtract = absorb_three_step_bonus
+							subtract = absorb_two_step_bonus
 						}
 						if = {
 							limit = {
@@ -368,13 +368,13 @@
 									has_trait = intellect_bad_3
 								}
 							}
-							subtract = absorb_two_step_bonus
+							subtract = absorb_three_step_bonus
 						}
 						if = {
 							limit = {
 								has_trait = intellect_good_1
 							}
-							subtract = absorb_three_step_bonus
+							subtract = absorb_two_step_bonus
 						}
 						if = {
 							limit = {
@@ -577,13 +577,13 @@
 									has_trait = physique_bad_3
 								}
 							}
-							subtract = absorb_two_step_bonus
+							subtract = absorb_three_step_bonus
 						}
 						if = {
 							limit = {
 								has_trait = physique_good_1
 							}
-							subtract = absorb_three_step_bonus
+							subtract = absorb_two_step_bonus
 						}
 						if = {
 							limit = {
