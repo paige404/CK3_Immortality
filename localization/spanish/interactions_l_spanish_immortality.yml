@@ -1,5 +1,8 @@
 ﻿l_spanish:
-  immortality_interaction: "Conceder la Inmortalidad"
-  immortality_interaction_tooltip: "Eliminar la inmortalidad"
-  immortality_interaction_desc: "Fijar la edad de la inmortalidad"
-  immortality_interaction_effect_tooltip: "Restaurar cuerpo y mente"
+  grant_immortality_interaction: "Conceder la Inmortalidad"
+
+  remove_immortality_interaction: "Eliminar la inmortalidad"
+
+  immortality_set_age_interaction: "Fijar la edad de la inmortalidad"
+
+  restore_body_interaction: "Restaurar cuerpo y mente"

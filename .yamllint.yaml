@@ -1,0 +1,28 @@
+extends: "default"
+ignore:
+  - "/vscode-userdata:"
+  - "/.github/workflows"
+rules:
+  line-length: "disable"
+  new-lines:
+    type: "unix"
+  indentation:
+    spaces: 2
+    indent-sequences: true
+  document-start:
+    present: false
+    level: "error"
+  truthy:
+    allowed-values:
+      - "true"
+      - "false"
+    check-keys: false
+    level: "error"
+  quoted-strings:
+    quote-type: "double"
+    required: true
+  comments:
+    min-spaces-from-content: 2
+    level: "error"
+  empty-lines:
+    max: 1

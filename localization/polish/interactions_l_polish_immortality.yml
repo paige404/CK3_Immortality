@@ -1,5 +1,8 @@
 ﻿l_polish:
   grant_immortality_interaction: "Przyznaj nieśmiertelność."
+
   remove_immortality_interaction: "Usuń nieśmiertelność."
+
   immortality_set_age_interaction: "Ustaw wiek nieśmiertelności."
+
   restore_body_interaction: "Przywróć ciało i umysł."

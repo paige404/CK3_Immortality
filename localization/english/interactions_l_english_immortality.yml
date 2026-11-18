@@ -1,9 +1,12 @@
 ﻿l_english:
   grant_immortality_interaction: "Grant immortality."
   grant_immortality_interaction_desc: "Grant immortality to this character."
+
   remove_immortality_interaction: "Remove immortality."
   remove_immortality_interaction_desc: "Take away this character's immortality."
+
   immortality_set_age_interaction: "Set immortality age."
   immortality_set_age_interaction_desc: "Set this character's immortality age."
+
   restore_body_interaction: "Restore body and mind."
   restore_body_interaction_desc: "Restore this character's body and mind."

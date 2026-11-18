@@ -1,8 +1,7 @@
 ﻿l_italian:
   immortality_decision: "Immortalità"
   immortality_decision_tooltip: "Questa decisione aggiunge un tratto che vi rende immortali."
-  immortalitu_decision_desc: "Lasciarsi alle spalle la morte e l'invecchiamento?"
-  immortality_decision_effect_tooltip:
+  immortality_decision_desc: "Lasciarsi alle spalle la morte e l'invecchiamento?"
 
   immortality_removal_decision: "Rinunciare all'immortalità"
   immortality_removal_decision_tooltip: "Questa decisione vi consentirà di lasciare nuovamente questa spoglia mortale in modo naturale."
@@ -12,7 +11,7 @@
 
   new_invasion_decision: "Pianifica una nuova invasione."
   new_invasion_decision_tooltip: "Questa decision ti permetterà di invadere ancora una volta per un regno."
-  new_invasion_deciion_desc: "Sei pronto a partire per ancora una volta per grandi conquiste?"
+  new_invasion_decision_desc: "Sei pronto a partire per ancora una volta per grandi conquiste?"
   new_invasion_decision_effect_tooltip: "Tu e i tuoi eserciti siete pronti a partire per un'altra grande campagna."
   new_invasion_decision_confirm: "Per onore e gloria!"
 
@@ -20,7 +19,7 @@
   set_age_decision_tooltip: "Questa decisione vi permetterà di scegliere l'età che desiderate apparire mentre siete immortali."
   set_age_decision_desc: "Stanco del solito aspetto?"
   set_age_decision_effect_tooltip: "Hai già usato il tuo controllo sull'età per congelare la tua, perché non spostarla un po' avanti o indietro mentre ci sei?"
-  set_age_decision_confirm: "Ho già congelaato la mia età, perché fermarsi qui?"
+  set_age_decision_confirm: "Ho già congelato la mia età, perché fermarsi qui?"
 
   restore_body_decision: "Ripristina il tuo corpo e la tua mente"
   restore_body_decision_tooltip: "Questa decisione rimuoverà tutti gli effetti negativi sulla salute da voi, come malattie o ferite."

@@ -1,0 +1,17 @@
+line_ending: "lf"
+match_type: "doublestar"
+include:
+  - "**/*.yaml"
+  - "**/*.yml"
+exclude:
+  - "vscode-userdata:/**"
+  - ".github/workflows/**"
+formatter:
+  type: "basic"
+  indent: 2
+  include_document_start: false
+  pad_line_comments: 2
+  retain_line_breaks_single: true
+  force_quote_style: "double"
+  trim_trailing_whitespace: true
+  eof_newline: true

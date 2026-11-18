@@ -8,7 +8,7 @@
   immortality_removal_decision: "Willst du deine Unsterblichkeit aufgeben?"
   immortality_removal_decision_tooltip: "Diese Entscheidung erlaubt es dir, in deine sterbliche Hülle zurückzukehren."
   immortality_removal_decision_desc: "Vielleicht ist es endlich Zeit deine Unsterblichkeit aufzugeben?"
-  immortality_removal_decision_effect_tooltip: "Ist es an der Zeit deine Unsterblichkeit zu überwinden?" #not completly sure how to translate this perfectly
+  immortality_removal_decision_effect_tooltip: "Ist es an der Zeit deine Unsterblichkeit zu überwinden?"  # not completly sure how to translate this perfectly
   immortality_removal_decision_confirm: "Ja, ich bin jetzt bereit."
 
   new_invasion_decision: "Plane eine neue Invasion"
