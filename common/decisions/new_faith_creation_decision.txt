@@ -1,7 +1,7 @@
 ﻿new_faith_creation_decision = {
 	picture = {
-        reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
-    }
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
 	decision_group_type = immortality_decision_group
 	is_shown = {
 		has_character_flag = has_created_a_faith
@@ -10,15 +10,12 @@
 			has_trait = immortal
 		}
 	}
-	
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
 	}
-	
 	effect = {
 		custom_tooltip = new_faith_creation_decision_effect_tooltip
 		remove_character_flag = has_created_a_faith
 	}
-
 	ai_check_interval = 0
 }

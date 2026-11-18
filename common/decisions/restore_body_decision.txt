@@ -1,15 +1,13 @@
 ﻿restore_body_decision = {
 	picture = {
-        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
-    }
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
 	decision_group_type = immortality_decision_group
 	is_shown = {
 		restore_body_trigger = yes
 	}
-	
 	effect = {
 		restore_body_effect = yes
 	}
-
 	ai_check_interval = 0
 }

@@ -1,7 +1,7 @@
 ﻿set_age_decision = {
 	picture = {
-        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
-    }
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
 	decision_group_type = immortality_decision_group
 	is_shown = {
 		OR = {
@@ -9,16 +9,13 @@
 			has_trait = immortal
 		}
 	}
-
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
 	}
-	
 	effect = {
 		custom_tooltip = set_age_decision_effect_tooltip
 		save_scope_as = set_age
 		trigger_event = immortality_set_age.1
 	}
-
 	ai_check_interval = 0
 }

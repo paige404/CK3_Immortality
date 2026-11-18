@@ -1,7 +1,7 @@
 ﻿new_invasion_decision = {
 	picture = {
-        reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
-    }
+		reference = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+	}
 	decision_group_type = immortality_decision_group
 	is_shown = {
 		OR = {
@@ -14,17 +14,14 @@
 			has_trait = immortal
 		}
 	}
-	
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
 	}
-	
 	effect = {
 		custom_tooltip = new_invasion_decision_effect_tooltip
 		remove_character_flag = used_lifetime_invasion
 		remove_character_flag = used_lifetime_subjugation
 		remove_character_flag = declared_major_religious_war_flag
 	}
-
 	ai_check_interval = 0
 }

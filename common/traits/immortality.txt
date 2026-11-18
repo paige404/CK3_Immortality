@@ -3,13 +3,16 @@
 	flag = is_immortal
 	health = 10
 	no_prowess_loss_from_age = yes
-	opposites = { incapable }
-
+	opposites = {
+		incapable
+	}
 	desc = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					NOT = { exists = this }
+					NOT = {
+						exists = this
+					}
 				}
 				desc = trait_immortality_desc
 			}
