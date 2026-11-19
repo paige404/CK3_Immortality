@@ -1,0 +1,30 @@
+---
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - descriptor.mod
+  workflow_call:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Checkout Validation
+        uses: actions/checkout@v7
+        with:
+          repository: ddbb07/tiger-action
+          ref: 'main'
+          path: 'validation'
+          token: ${{ secrets.VALIDATION_TOKEN }}
+      - name: Validate
+        uses: ./validation/
+        with:
+          action-directory: 'validation'
+          game: 'ck3'
+          update-tiger: 'true'

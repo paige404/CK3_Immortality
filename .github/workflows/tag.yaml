@@ -1,0 +1,56 @@
+---
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - descriptor.mod
+
+jobs:
+  validate:
+    uses: ./.github/workflows/validate.yaml
+    permissions:
+      contents: read
+    secrets: inherit
+
+  tag:
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Tag new version
+        id: tag
+        run: |
+          version="$(python3 - <<'EOF'
+          import re, sys, pathlib
+          text = pathlib.Path("descriptor.mod").read_text("utf-8-sig")
+          match = re.search(r'^version="(\d+\.\d+\.\d+)"$', text, re.M)
+          if not match:
+              sys.exit("::error::No version found in descriptor.mod")
+          print(match[1])
+          EOF
+          )"
+          tag="v${version}"
+          if git rev-parse -q --verify "refs/tags/${tag}" >/dev/null; then
+            echo "${tag} is already tagged"
+          else
+            git tag "${tag}"
+            git push origin "${tag}"
+            echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          fi
+
+  release:
+    needs: tag
+    if: needs.tag.outputs.tag != ''
+    uses: ./.github/workflows/release.yaml
+    permissions:
+      contents: write
+    secrets: inherit
+    with:
+      tag: ${{ needs.tag.outputs.tag }}

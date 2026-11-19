@@ -1,0 +1,53 @@
+---
+on:
+  push:
+    tags:
+      - v*
+  workflow_call:
+    inputs:
+      tag:
+        type: string
+        default: ""
+
+jobs:
+  validate:
+    if: inputs.tag == ''
+    uses: ./.github/workflows/validate.yaml
+    permissions:
+      contents: read
+    secrets: inherit
+
+  release:
+    needs: validate
+    if: ${{ !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: refs/tags/${{ env.TAG }}
+      - name: Check tag against version
+        run: |
+          version="$(python3 - <<'EOF'
+          import re, sys, pathlib
+          text = pathlib.Path("descriptor.mod").read_text("utf-8-sig")
+          match = re.search(r'^version="(\d+\.\d+\.\d+)"$', text, re.M)
+          if not match:
+              sys.exit("::error::No version found in descriptor.mod")
+          print(match[1])
+          EOF
+          )"
+          if [ "${TAG}" != "v${version}" ]; then
+            echo "::error::Tag ${TAG} doesn't match the mod version v${version}"
+            exit 1
+          fi
+      - uses: astral-sh/setup-uv@v10.3.3
+      - name: Package
+        run: uv run scripts/package.py -a
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${TAG}" package/*.zip --generate-notes

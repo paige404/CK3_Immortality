@@ -3,8 +3,4 @@
 /vscode-userdata:/
 
 # Packaging and Publishing
-/__pycache__/
-/libsteam_api.so
 /package/
-steam_appid.txt
-SteamUploader
