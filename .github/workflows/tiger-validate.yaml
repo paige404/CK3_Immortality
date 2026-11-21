@@ -1,5 +1,5 @@
 ---
-name: Validate
+name: Tiger Validate
 on:
   push:
     branches:
@@ -8,24 +8,28 @@ on:
       - descriptor.mod
   workflow_call:
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v7
-      - name: Checkout Validation
+        with:
+          persist-credentials: false
+      - name: Check out Tiger action
         uses: actions/checkout@v7
         with:
           repository: ddbb07/tiger-action
-          ref: 'main'
-          path: 'validation'
+          ref: main
+          path: validation
           token: ${{ secrets.VALIDATION_TOKEN }}
-      - name: Validate
+          persist-credentials: false
+      - name: Validate mod
         uses: ./validation/
         with:
-          action-directory: 'validation'
-          game: 'ck3'
-          update-tiger: 'true'
+          action-directory: validation
+          game: ck3
+          update-tiger: true

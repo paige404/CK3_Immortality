@@ -1,0 +1,51 @@
+---
+name: YAML Validate
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "**.yml"
+      - "**.yaml"
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+env:
+  YAMLLINT_VERSION: 1.38.0
+  YAMLFMT_VERSION: 0.21.0
+  YAMLFMT_CHECKSUM: 1f300d9257b232bb3b541d7fb1b0e6b3c121bcbab381c86cd38cb8722be8a566
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.3.3
+      - name: Lint YAML
+        run: uv tool run "yamllint@${YAMLLINT_VERSION}" --strict .
+
+  check-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Install yamlfmt
+        run: |
+          curl -fsSL -o "${RUNNER_TEMP}/yamlfmt.tar.gz" \
+            https://github.com/google/yamlfmt/releases/download/v${YAMLFMT_VERSION}/yamlfmt_${YAMLFMT_VERSION}_Linux_x86_64.tar.gz
+          echo "${YAMLFMT_CHECKSUM}  ${RUNNER_TEMP}/yamlfmt.tar.gz" | sha256sum --check
+          mkdir -p "${HOME}/.local/bin"
+          tar -xzf "${RUNNER_TEMP}/yamlfmt.tar.gz" -C "${HOME}/.local/bin" yamlfmt
+      - name: Check YAML formatting
+        run: |
+          "${HOME}/.local/bin/yamlfmt" -lint .

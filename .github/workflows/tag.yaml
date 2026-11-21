@@ -7,11 +7,12 @@ on:
     paths:
       - descriptor.mod
 
+permissions:
+  contents: read
+
 jobs:
   validate:
-    uses: ./.github/workflows/validate.yaml
-    permissions:
-      contents: read
+    uses: ./.github/workflows/tiger-validate.yaml
     secrets: inherit
 
   tag:
@@ -22,7 +23,8 @@ jobs:
     outputs:
       tag: ${{ steps.tag.outputs.tag }}
     steps:
-      - uses: actions/checkout@v7
+      - name: Check out repository
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - name: Tag new version
@@ -43,7 +45,7 @@ jobs:
           else
             git tag "${tag}"
             git push origin "${tag}"
-            echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+            echo "tag=${tag}" >> "${GITHUB_OUTPUT}"
           fi
 
   release:
