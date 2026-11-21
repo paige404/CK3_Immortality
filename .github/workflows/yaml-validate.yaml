@@ -29,6 +29,8 @@ jobs:
           persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v10.3.3
+        with:
+          enable-cache: false
       - name: Lint YAML
         run: uv tool run "yamllint@${YAMLLINT_VERSION}" --strict .
 
@@ -41,6 +43,8 @@ jobs:
           persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v10.3.3
+        with:
+          enable-cache: false
       - name: Remove localization BOMs
         run: uv run scripts/bom.py --remove-localization-boms
       - name: Install yamlfmt

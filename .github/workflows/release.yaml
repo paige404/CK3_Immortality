@@ -50,6 +50,8 @@ jobs:
           fi
       - name: Install uv
         uses: astral-sh/setup-uv@v10.3.3
+        with:
+          enable-cache: false
       - name: Package mod
         run: uv run scripts/package.py -a
       - name: Create release
