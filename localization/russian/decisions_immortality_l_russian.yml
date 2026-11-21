@@ -29,11 +29,11 @@
   restore_body_decision_effect_tooltip: "Исцели свое тело и разум силой... чего-то."
   restore_body_decision_confirm: "Исцелиться"
 
-  new_faith_creation_decision: "Сбросить счетчик создания религии"
-  new_faith_creation_decision_tooltip: "Это решение позволит вам снова создать новую веру."
-  new_faith_creation_decision_desc: "Готовы ли вы просветить свой народ еще раз?"
-  new_faith_creation_decision_effect_tooltip: "Вы чувствуете себя готовым снова создать новую религию."
-  new_faith_creation_decision_confirm: "Да"
+  new_rite_creation_decision: "Сбросить счетчик создания религии"
+  new_rite_creation_decision_tooltip: "Это решение позволит вам снова создать новую веру."
+  new_rite_creation_decision_desc: "Готовы ли вы просветить свой народ еще раз?"
+  new_rite_creation_decision_effect_tooltip: "Вы чувствуете себя готовым снова создать новую религию."
+  new_rite_creation_decision_confirm: "Да"
 
   renegotiate_contract_decision: "Сбросить счетчик изменения вашего вассалитета"
   renegotiate_contract_decision_tooltip: "Это решение позволит вам еще раз изменить ваш феодальный договор."

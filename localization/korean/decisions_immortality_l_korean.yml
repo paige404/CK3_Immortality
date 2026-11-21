@@ -29,11 +29,11 @@
   restore_body_decision_effect_tooltip: "...무언가의 힘으로 당신의 신체와 정신 건강을 회복시킵니다."
   restore_body_decision_confirm: "건강해지는 건 당연히 좋은 일이지."
 
-  new_faith_creation_decision: "새로운 신앙 만들 준비하기"
-  new_faith_creation_decision_tooltip: "이 결단은 다시 한번 새로운 신앙을 만들 수 있게 할 것입니다."
-  new_faith_creation_decision_desc: "국민들을 다시 한번 계몽시킬 준비가 되셨습니까?"
-  new_faith_creation_decision_effect_tooltip: "당신은 새로운 신앙을 다시 만들 준비가 되었습니다."
-  new_faith_creation_decision_confirm: "보라!"
+  new_rite_creation_decision: "새로운 신앙 만들 준비하기"
+  new_rite_creation_decision_tooltip: "이 결단은 다시 한번 새로운 신앙을 만들 수 있게 할 것입니다."
+  new_rite_creation_decision_desc: "국민들을 다시 한번 계몽시킬 준비가 되셨습니까?"
+  new_rite_creation_decision_effect_tooltip: "당신은 새로운 신앙을 다시 만들 준비가 되었습니다."
+  new_rite_creation_decision_confirm: "보라!"
 
   renegotiate_contract_decision: "봉신 계약 수정 준비하기"
   renegotiate_contract_decision_tooltip: "이 결단은 당신의 봉신 계약을 다시 수정할 수 있도록 할 것입니다."

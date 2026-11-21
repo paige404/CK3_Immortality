@@ -29,8 +29,8 @@
   restore_body_decision_effect_tooltip: "Soignez votre corps et votre âme avec le pouvoir de ... quelque chose."
   restore_body_decision_confirm: "Pourquoi ne voudrais-je pas être en bonne santé?"
 
-  new_faith_creation_decision: "Preparer la création d'une nouvelle croyance"
-  new_faith_creation_decision_tooltip: "Cette décision vous permettra à nouveau de creer une nouvelle croyance ."
-  new_faith_creation_decision_desc: "Etes-vous prêt a illuminer vos sujets une nouvelle fois?"
-  new_faith_creation_decision_effect_tooltip: "Vous vous sentez à nouveau prêt a creer une nouvelle religion."
-  new_faith_creation_decision_confirm: "Soyez prêt!"
+  new_rite_creation_decision: "Preparer la création d'une nouvelle croyance"
+  new_rite_creation_decision_tooltip: "Cette décision vous permettra à nouveau de creer une nouvelle croyance ."
+  new_rite_creation_decision_desc: "Etes-vous prêt a illuminer vos sujets une nouvelle fois?"
+  new_rite_creation_decision_effect_tooltip: "Vous vous sentez à nouveau prêt a creer une nouvelle religion."
+  new_rite_creation_decision_confirm: "Soyez prêt!"

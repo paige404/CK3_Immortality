@@ -27,11 +27,11 @@
   restore_body_decision_effect_tooltip: "Guarisci il tuo corpo e la tua mente con il potere di... qualcosa."
   restore_body_decision_confirm: "Perché non vorrei essere in salute?"
 
-  new_faith_creation_decision: "Preparati a creare una nuova fede"
-  new_faith_creation_decision_tooltip: "Questa decisione ti permetterà di creare una nuova fede ancora una volta."
-  new_faith_creation_decision_desc: "Sei pronto ad illuminare di nuovo il tuo popolo?"
-  new_faith_creation_decision_effect_tooltip: "Ti senti pronto a creare una nuova religione di nuovo."
-  new_faith_creation_decision_confirm: "Ecco!"
+  new_rite_creation_decision: "Preparati a creare una nuova fede"
+  new_rite_creation_decision_tooltip: "Questa decisione ti permetterà di creare una nuova fede ancora una volta."
+  new_rite_creation_decision_desc: "Sei pronto ad illuminare di nuovo il tuo popolo?"
+  new_rite_creation_decision_effect_tooltip: "Ti senti pronto a creare una nuova religione di nuovo."
+  new_rite_creation_decision_confirm: "Ecco!"
 
   renegotiate_contract_decision: "Preparati a rinegoziare il tuo vassallaggio"
   renegotiate_contract_decision_tooltip: "Questa decisione ti permetterà di modificare il tuo contratto feudale ancora una volta."

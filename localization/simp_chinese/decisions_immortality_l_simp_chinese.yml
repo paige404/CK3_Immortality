@@ -29,11 +29,11 @@
   restore_body_decision_effect_tooltip: "藉由……某种力量来治愈你的身心。"
   restore_body_decision_confirm: "为什么我会不想保持健康？"
 
-  new_faith_creation_decision: "准备创造新的信仰"
-  new_faith_creation_decision_tooltip: "这一决议将让你再次创造一个新的信仰."
-  new_faith_creation_decision_desc: "你准备好再次启示你的人民了吗？"
-  new_faith_creation_decision_effect_tooltip: "你觉得准备好再次创造一种新的宗教了."
-  new_faith_creation_decision_confirm: "看吧！"
+  new_rite_creation_decision: "准备创造新的信仰"
+  new_rite_creation_decision_tooltip: "这一决议将让你再次创造一个新的信仰."
+  new_rite_creation_decision_desc: "你准备好再次启示你的人民了吗？"
+  new_rite_creation_decision_effect_tooltip: "你觉得准备好再次创造一种新的宗教了."
+  new_rite_creation_decision_confirm: "看吧！"
 
   renegotiate_contract_decision: "准备和你的附庸重新谈判"
   renegotiate_contract_decision_tooltip: "这个决议将让你再次修改你的封建契约。"
