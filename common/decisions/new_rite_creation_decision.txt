@@ -5,8 +5,8 @@
 	decision_group_type = immortality_decision_group
 	is_shown = {
 		OR = {
-			has_character_flag = has_created_a_faith
-			has_character_flag = has_edited_a_rite
+			has_variable = has_created_a_faith
+			has_variable = has_edited_a_rite
 		}
 		OR = {
 			has_trait = immortality
@@ -18,8 +18,8 @@
 	}
 	effect = {
 		custom_tooltip = new_rite_creation_decision_effect_tooltip
-		remove_character_flag = has_created_a_faith
-		remove_character_flag = has_edited_a_rite
+		remove_variable = has_created_a_faith
+		remove_variable = has_edited_a_rite
 	}
 	ai_check_interval = 0
 }
